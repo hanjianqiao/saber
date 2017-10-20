@@ -21,6 +21,7 @@
 		07B503261F99BF160032B791 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B503241F99BF160032B791 /* ViewController.m */; };
 		07B503271F99BF160032B791 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B503241F99BF160032B791 /* ViewController.m */; };
 		07B503281F99BF160032B791 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B503241F99BF160032B791 /* ViewController.m */; };
+		07B503361F9A07C30032B791 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -1010,6 +1011,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B503361F9A07C30032B791 /* main.jsbundle in Resources */,
 				07B503131F99BE360032B791 /* Main.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
