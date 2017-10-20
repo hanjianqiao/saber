@@ -30,8 +30,14 @@ build:
         name: setup virtual environment
         install_wheel: false # Enable wheel to speed up builds (experimental)
     # Push to coding.net
+
+    - add-to-known_hosts:
+        hostname: git.coding.net
+        fingerprint: 98:ab:2b:30:60:00:82:86:bb:85:db:87:22:c4:4f:b1
+
     - add-ssh-key:
             keyname: saber_coding
+
     - script:
         name: push to coding
         code: |
