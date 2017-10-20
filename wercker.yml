@@ -30,6 +30,8 @@ build:
         name: setup virtual environment
         install_wheel: false # Enable wheel to speed up builds (experimental)
     # Push to coding.net
+    - add-ssh-key:
+            keyname: saber_coding
     - script:
         name: push to coding
         code: |
