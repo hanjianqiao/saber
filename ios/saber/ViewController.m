@@ -29,7 +29,7 @@
   NSLog(@"High Score Button Pressed");
   NSURL *jsCodeLocation;
 
-# if 0
+# if 1
   // get bundle file from server
   jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
 # else
