@@ -13,7 +13,7 @@
         <!--second-->
         <scene sceneID="6hB-eH-CS1">
             <objects>
-                <viewController title="second" id="nLu-ML-ogN" sceneMemberID="viewController">
+                <viewController title="second" id="nLu-ML-ogN" customClass="ViewController2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LRd-Wl-8NW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,6 +22,9 @@
                                 <rect key="frame" x="164" y="318" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="click:" destination="nLu-ML-ogN" eventType="touchUpInside" id="22y-Em-6t3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

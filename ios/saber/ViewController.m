@@ -31,11 +31,11 @@
 
 # if 1
   // get bundle file from server
-  jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
+  jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/1.bundle?platform=ios"];
 # else
   // if choose this bundle file run command at project root:
   // react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/main.jsbundle
-  jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+  jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"1" withExtension:@"jsbundle"];
 # endif
   
   RCTRootView *rootView =
