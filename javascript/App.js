@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
 })
 
 export default class App extends Component {
-  
+
     constructor() {
       super()
       this.state = {
@@ -82,7 +82,7 @@ export default class App extends Component {
           />
         </View>
         <WebView
-        source={{uri: 'https://www.baidu.com'}}
+        source={{uri: 'https://hanjianqiao.github.io/'}}
         style={{marginTop: 20}}
       />
       </View>
