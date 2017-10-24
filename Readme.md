@@ -7,3 +7,10 @@
 
 ***Use React-Native and Native method to build app***
 
+## Build
+
+
+* Install prerequisite according to [Facebook][react-native guide]
+* Run command: `npm install --save react@16.0.0-beta.5 react-native`
+
+[react-native guide]: https://facebook.github.io/react-native/docs/getting-started.html
