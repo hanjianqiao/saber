@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import App from './javascript/App';
+import App from './saber-react/App';
 
 AppRegistry.registerComponent('saber', () => App);
