@@ -1,0 +1,9 @@
+[submodule "saber-react"]
+	path = saber-react
+	url = git@github.com:hanjianqiao/saber-react.git
+[submodule "saber-ios"]
+	path = saber-ios
+	url = git@github.com:hanjianqiao/saber-ios.git
+[submodule "saber-android"]
+	path = saber-android
+	url = git@github.com:hanjianqiao/saber-android.git
